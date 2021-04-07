@@ -10,7 +10,7 @@ public class Tv extends ServiceCommunicator{
         Main method - just tests this class in isolation.  Normally you would have another class call iTunesTool
     */
         public static void main(String[] argv) {
-            System.out.println(new Tv("star trek").get());
+            System.out.println(new Tv("star-trek").get());
             System.out.println(new Tv("chappell").get());
         }
 }
